@@ -1,0 +1,85 @@
+body {
+  /* Define o estilo básico do corpo da página */
+  padding: 0; /* Remove o preenchimento padrão */
+  margin: 0; /* Remove a margem padrão */
+  display: flex; /* Habilita o layout flexbox */
+  justify-content: center; /* Centra o conteúdo horizontalmente */
+  align-items: center; /* Centra o conteúdo verticalmente */
+  min-height: 100vh; /* Define a altura mínima do corpo igual à altura da viewport */
+  user-select: none; /* Desativa a seleção de texto */
+  background: #ecf0f3; /* Define a cor de fundo */
+}
+  
+  .container {
+  /* Estiliza o container principal da calculadora */
+  margin-left: em; /* Adiciona uma margem esquerda */
+  padding: 30px; /* Adiciona preenchimento interno */
+  border-radius: 4px; /* Arredonda os cantos */
+  box-shadow: 13px 13px 20px #cdced1, -13px -13px 20px #ffffff; /* Aplica sombra */
+}
+  
+  .row button {
+  /* Estiliza os botões */
+  width: 60px; /* Define a largura */
+  height: 30px; /* Define a altura */
+  font-size: 16px; /* Define o tamanho da fonte */
+  border: none; /* Remove a borda */
+  outline: none; /* Remove o contorno */
+  margin: 5px; /* Adiciona margem entre os botões */
+  border-radius: 4px; /* Arredonda os cantos */
+  transition: 0.1s; /* Aplica transição para efeitos de hover */
+  box-shadow: 5px 5px 8px #00000020, -5px -5px 8px #ffff; /* Aplica sombra */
+}
+  
+  .row button:hover {
+  /* Estiliza os botões ao passar o mouse */
+  box-shadow: inset 5px 5px 8px rgba(16, 16, 16, 0.1), inset -5px -5px 8px #fff;
+  background: #fff;
+}
+  
+  .display #screen {
+  /* Estiliza a tela de exibição */
+  margin-bottom: 0.5em; /* Adiciona margem inferior */
+  width: auto; /* Define a largura automaticamente */
+  height: 80px; /* Define a altura */
+  font-size: 35px; /* Define o tamanho da fonte */
+  outline: none; /* Remove o contorno */
+  border: none; /* Remove a borda */
+  text-align: right; /* Alinha o texto à direita */
+  padding-right: 0.5em; /* Adiciona preenchimento à direita */
+  background: #ecf0f3; /* Define a cor de fundo */
+  border-radius: 6px; /* Arredonda os cantos */
+  box-shadow: inset 8px 8px 8px #cdced1, inset -8px -8px 8px #ffffff; /* Aplica sombra */
+}
+  
+#eval {
+  /* Estiliza o botão de avaliação */
+  background: #FF6347; /* Define a cor de fundo */
+  color: #fff; /* Define a cor do texto */
+  box-shadow: inset 5px 5px 8px #FF6347, inset 5px 5px 8px #FF6347; /* Aplica sombra */
+}
+
+#eval:hover {
+  /* Estiliza o botão de avaliação ao passar o mouse */
+  box-shadow: inset 5px 5px 8px #aa4330, inset -5px -5px 8px #aa4330;
+}
+
+#ac {
+  /* Estiliza o botão de limpar tudo */
+  background: #8B0000;
+  color: #fff;
+}
+
+#ac:hover {
+  box-shadow: inset 5px 5px 8px #4b0505, inset -5px -5px 8px #4b0505;
+}
+
+#ce {
+  /* Estiliza o botão de limpar */
+  background: #B0E0E6;
+  color: #000000;
+}
+
+#ce:hover {
+  box-shadow: inset 5px 5px 8px #288794, inset -5px -5px 8px #288794;
+}
