@@ -19,6 +19,6 @@ Tecnologias usadas:
 
 1. **Clone o repositório: Faça um clone desse repositório no seu computador.**
 2. **Abra o arquivo index.html: Abra o arquivo index.html no seu navegador favorito.**
-3. **Comece a pesquisar: Digite o nome do atleta ou esporte e veja a mágica acontecer!**
+3. **Comece a calcular: Digite os números desejados e a operação matemática e veja a mágica acontecer!**
 
 https://calculadora-cientifica-red.vercel.app
