@@ -1,5 +1,7 @@
 ## Calculadora Científica
 
+**Arrumando ela**
+
 **O que essa aplicação faz?**
 
 Essa aplicação como o próprio nome diz, uma calculadora científica, uma ferramenta eletrônica projetada para realizar cálculos matemáticos mais complexos do que uma calculadora comum.
